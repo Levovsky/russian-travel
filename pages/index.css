@@ -83,9 +83,11 @@
 
 .lead__title {
     max-width: 720px;
+    width: 100%;
     font-size: 96px;
     line-height: 104%;
     text-align: center;
+    overflow: hidden;
 }
 
 .lead__subtitle {
@@ -112,4 +114,42 @@
 
 .lead__image {
     width: 100%;
+}
+
+.intro {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.intro__content-container {
+    max-width: 690px;
+}
+
+.intro__title {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 107%;
+}
+
+.intro__text {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 163%;
+}
+
+.intro__list {
+    width: 100%;
+    margin-top: 33px;
+}
+
+.intro__list-item {
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.intro__accent {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
 }
