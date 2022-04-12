@@ -1,10 +1,58 @@
-/* NORMALIZE */
 @import url("../vendor/normalize.css");
+@import url("../fonts/inter.css");
 
-/* ======== HEADER BLOCK ======== */
-@import url("../blocks/header/header.css");
-/* ======== HEADER BLOCK ======== */
+.page {
+    font-family: "Inter";
+    font-weight: normal;
+    background-color: #2a2c2f;
+}
 
-/* ======== PAGE BLOCK ======== */
-@import url("../blocks/page/page.css");
-/* ======== PAGE BLOCK ======== */
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #fff;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.header {
+    padding-top: 28px;
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    background-image: url("../icons/__logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-switch {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: min-content;
+    gap: 18px;
+}
+
+.header__lang-link {
+}

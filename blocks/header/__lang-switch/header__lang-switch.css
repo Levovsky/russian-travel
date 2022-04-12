@@ -1,0 +1,6 @@
+.header__lang-switch {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: min-content;
+    gap: 18px;
+}
