@@ -1,0 +1,10 @@
+/* NORMALIZE */
+@import url("../vendor/normalize.css");
+
+/* ======== HEADER BLOCK ======== */
+@import url("../blocks/header/header.css");
+/* ======== HEADER BLOCK ======== */
+
+/* ======== PAGE BLOCK ======== */
+@import url("../blocks/page/page.css");
+/* ======== PAGE BLOCK ======== */
