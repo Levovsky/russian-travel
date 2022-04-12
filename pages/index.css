@@ -4,7 +4,23 @@
 .page {
     font-family: "Inter";
     font-weight: normal;
+    color: #fff;
     background-color: #2a2c2f;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
 }
 
 .list {
@@ -18,9 +34,6 @@
     padding: 0;
     text-decoration: none;
     cursor: pointer;
-    font-size: 24px;
-    line-height: 1.17;
-    color: #fff;
     transition: opacity 0.2s ease-in-out;
 }
 
@@ -55,4 +68,48 @@
 }
 
 .header__lang-link {
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+.lead {
+    padding: 56px 0 92px;
+    max-width: 984px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead__title {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 104%;
+    text-align: center;
+}
+
+.lead__subtitle {
+    margin-top: 32px;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.lead__fig-container {
+    margin: 0;
+    margin-top: 64px;
+    max-width: 100%;
+}
+
+.lead__caption {
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.lead__image {
+    width: 100%;
 }
