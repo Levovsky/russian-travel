@@ -1,0 +1,5 @@
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    column-gap: 18px;
+}
