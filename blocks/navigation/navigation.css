@@ -4,7 +4,7 @@
     column-gap: 18px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
     .navigation {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, min-content);

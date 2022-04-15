@@ -6,3 +6,11 @@
     width: 176px;
     height: 52px;
 }
+
+@media screen and (max-width: 540px) {
+    .header__logo {
+        background-image: url("../../../icons/__logo\ \(1\).svg");
+        width: 142px;
+        height: 42px;
+    }
+}

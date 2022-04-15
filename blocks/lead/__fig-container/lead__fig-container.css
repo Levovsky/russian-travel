@@ -1,11 +1,17 @@
 .lead__fig-container {
     margin: 0;
     margin-top: 64px;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__fig-container {
         margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .lead__fig-container {
+        margin-top: 40px;
     }
 }

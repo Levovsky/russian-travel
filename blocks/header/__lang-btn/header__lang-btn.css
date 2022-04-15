@@ -1,0 +1,10 @@
+.header__lang-btn {
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+@media screen and (max-width: 540px) {
+    .header__lang-btn {
+        font-size: 18px;
+    }
+}

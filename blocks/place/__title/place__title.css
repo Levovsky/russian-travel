@@ -1,6 +1,5 @@
 .place__title {
     grid-area: title;
-    width: 100%;
     grid-column: 1;
     grid-row: 1;
     font-weight: 900;
@@ -9,9 +8,21 @@
     margin-bottom: 48px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .place__title {
-        margin-bottom: 32px;
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .place__title {
+        margin: 0 auto 32px;
+        width: calc(100% - 32px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
         font-size: 32px;
     }
 }

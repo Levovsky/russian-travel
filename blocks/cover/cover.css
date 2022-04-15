@@ -8,6 +8,7 @@
     height: 740px;
     background-image: url("../../images/__background.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
 }
@@ -27,4 +28,23 @@
 
 .cover:hover::before {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 200px;
+    }
 }
