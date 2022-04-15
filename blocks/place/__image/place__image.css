@@ -1,6 +1,15 @@
 .place__image {
-    grid-area: img;
     width: 100%;
     object-fit: cover;
     object-position: top;
+    grid-column: 1;
+    grid-row: 2 / span 3;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .place__image {
+        grid-column: 1;
+        grid-row: 3;
+    }
 }

@@ -1,5 +1,10 @@
 .place__website {
-    grid-area: url;
     align-self: end;
     margin-bottom: 48px;
+}
+
+@media screen and (max-width: 500px) {
+    .place__website {
+        margin-bottom: 32px;
+    }
 }

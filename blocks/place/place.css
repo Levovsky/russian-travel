@@ -1,17 +1,14 @@
 .place {
-    padding-bottom: 80px;
     width: 100%;
     display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: repeat(3, min-content);
-    grid-template-areas:
-        "title url"
-        "img ."
-        "img ."
-        "img .";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     grid-column-gap: 40px;
 }
 
-.place:last-of-type {
-    padding-bottom: 0;
+@media screen and (max-width: 500px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, min-content);
+    }
 }
