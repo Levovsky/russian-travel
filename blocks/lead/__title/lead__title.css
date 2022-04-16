@@ -8,14 +8,7 @@
     overflow: hidden;
 }
 
-/* @media screen and (max-width: 768px) {
-    .lead__title {
-        max-width: calc(100% - 24px);
-        margin: 0 auto 24px;
-    }
-} */
-
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 540px) {
     .lead__title {
         font-size: 48px;
     }

@@ -35,6 +35,7 @@
 @import url("../blocks/intro/__accent/intro__accent.css");
 
 @import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__list/photo-grid__list.css");
 @import url("../blocks/photo-grid/__wrap/photo-grid__wrap.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
 
