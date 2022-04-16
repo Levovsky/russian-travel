@@ -16,4 +16,4 @@
 5. adaptive design
 
 **Проект**
-Проект можно посмотреть по (ссылке)[https://levovsky.github.io/russian-travel/index.html]
+Проект можно посмотреть по [ссылке](https://levovsky.github.io/russian-travel/index.html)
