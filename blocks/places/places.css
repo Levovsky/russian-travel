@@ -8,12 +8,6 @@
     row-gap: 80px;
 }
 
-@media screen and (max-width: 1280px) {
-    .places {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .places {
         width: calc(100% - 96px);
@@ -30,8 +24,8 @@
 
 @media screen and (max-width: 540px) {
     .places {
+        width: 100%;
         padding: 64px 0 66px;
         row-gap: 50px;
-        width: 100%;
     }
 }

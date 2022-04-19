@@ -1,6 +1,5 @@
 .lead__fig-container {
-    margin: 0;
-    margin-top: 64px;
+    margin: 64px 0 0 0;
     width: 100%;
 }
 
