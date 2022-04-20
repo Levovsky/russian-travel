@@ -1,6 +1,4 @@
 .link {
-    margin: 0;
-    padding: 0;
     text-decoration: none;
     cursor: pointer;
     transition: opacity 0.2s ease-in-out;
