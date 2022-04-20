@@ -5,6 +5,7 @@
     line-height: 1.22;
     text-align: center;
     z-index: 2;
+    color: white;
 }
 
 @media screen and (max-width: 540px) {
