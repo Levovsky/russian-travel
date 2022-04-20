@@ -1,31 +1,20 @@
 .places {
     max-width: 984px;
-    margin: 0 auto;
-    padding: 92px 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, 100%);
     grid-template-rows: auto;
     row-gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-    .places {
-        width: calc(100% - 96px);
-    }
-}
-
 @media screen and (max-width: 768px) {
     .places {
-        padding: 88px 0 90px;
         row-gap: 73px;
-        width: calc(100% - 48px);
     }
 }
 
 @media screen and (max-width: 540px) {
     .places {
         width: 100%;
-        padding: 64px 0 66px;
         row-gap: 50px;
     }
 }

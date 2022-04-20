@@ -1,0 +1,22 @@
+.content__places-list {
+    padding: 92px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content__places-list {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__places-list {
+        padding: 88px 24px 90px 24px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .content__places-list {
+        padding: 64px 0 66px;
+    }
+}

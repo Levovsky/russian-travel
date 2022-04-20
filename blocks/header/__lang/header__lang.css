@@ -1,5 +1,6 @@
 .header__lang {
     margin: 0;
+    padding: 0;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, min-content);

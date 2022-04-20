@@ -1,17 +1,21 @@
 @import url("../vendor/normalize.css");
 @import url("../fonts/inter.css");
 
-@import url("../blocks/page/page.css");
-
 /* --------BLOCKS-------- */
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/__footer/page__footer.css");
+@import url("../blocks/page/__header/page__header.css");
 @import url("../blocks/link/link.css");
-@import url("../blocks/list/list.css");
-@import url("../blocks/text/text.css");
-@import url("../blocks/title/title.css");
-@import url("../blocks/btn/btn.css");
 @import url("../blocks/navigation/navigation.css");
 @import url("../blocks/navigation/__item/navigation__item.css");
 @import url("../blocks/navigation/__link/navigation__link.css");
+
+@import url("../blocks/content/content.css");
+@import url("../blocks/content/__lead/content__lead.css");
+@import url("../blocks/content/__intro/content__intro.css");
+@import url("../blocks/content/__photos/content__photos.css");
+@import url("../blocks/content/__places-list/content__places-list.css");
+@import url("../blocks/content/__cover/content__cover.css");
 /* --------BLOCKS-------- */
 
 /* --------HEADER-------- */
@@ -34,7 +38,7 @@
 
 /* --------INTRO-------- */
 @import url("../blocks/intro/intro.css");
-@import url("../blocks/intro/__content-container/intro__content-container.css");
+@import url("../blocks/intro/__article/intro__article.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
