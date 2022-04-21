@@ -76,6 +76,6 @@
 
 /* --------FOOTER-------- */
 @import url("../blocks/footer/footer.css");
-@import url("../blocks/footer/__link-navigation/footer__link-navigation.css");
+@import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 /* --------FOOTER-------- */
